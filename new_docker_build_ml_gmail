@@ -1,0 +1,5 @@
+FROM python:3
+
+ADD ml_gmail.py /
+
+CMD [ "python", "./ml_gmail.py" ]
